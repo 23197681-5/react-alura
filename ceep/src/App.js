@@ -1,15 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-import { NoteList } from './components/noteList';
+import logo from "./logo.svg";
+import "./App.css";
+import { NoteList } from "./components/noteList/noteList";
+import { RegistrationForm } from "./components/registrationForm";
 
 function App() {
   return (
     <section>
-  <input type="text" placeholder='Annotation title'></input>
-  <textarea>Annotation text</textarea>
-  <button>Create annotation</button>
-  <NoteList></NoteList>
-  </section>
+      <RegistrationForm></RegistrationForm>
+      <NoteList></NoteList>
+    </section>
   );
 }
 

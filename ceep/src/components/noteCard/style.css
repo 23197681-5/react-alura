@@ -1,0 +1,22 @@
+.note-card {
+  color: rebeccapurple;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--fundo-detalhes);
+  padding: 15px;
+  flex-wrap: wrap;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  align-items: center;
+  list-style-type: none;
+}
+
+.note-card-header {
+  font-size: 1.4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note-text {
+  color: black;
+}
