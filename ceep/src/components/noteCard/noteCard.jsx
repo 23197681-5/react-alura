@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import "./style.css";
-export class CardAnnotation extends Component {
+export class NoteCard extends Component {
   state = {};
   render() {
     return (

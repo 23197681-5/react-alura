@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { CardAnnotation } from "../noteCard/noteCard";
+import NoteCard from "../noteCard/index";
 
 export class NoteList extends Component {
   render() {
@@ -10,7 +10,7 @@ export class NoteList extends Component {
             {Array.of("Work", "Work", "Study").map((category, index) => (
               <li className="bg-white shadow-md rounded px-8 py-8 pt-8">
                 {" "}
-                <CardAnnotation>{category}</CardAnnotation>
+                <NoteCard>{category}</NoteCard>
               </li>
             ))}
           </li>

@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { NoteList } from "./components/noteList/noteList";
-import { RegistrationForm } from "./components/registrationForm";
+import NoteList from "./components/noteList/index";
+import RegistrationForm from "./components/registrationform/index";
 
 function App() {
   return (
